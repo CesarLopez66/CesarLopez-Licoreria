@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"], input[type="number"], select {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos existentes... */
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.product h3 {
+    margin: 0;
+    color: #333;
+}
+
+.product p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.product form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product input {
+    width: 80px;
+}
+
+.product button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos adicionales */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary, .btn-success, .btn-warning, .btn-danger {
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success:hover {
+    background-color: #28a745;
+}
+
+.btn-warning:hover {
+    background-color: #ffc107;
+}
+
+.btn-danger:hover {
+    background-color: #dc3545;
+}
+
+/* Estilos personalizados para login y registro */
+body.login-background {
+    background-image: url('images/background.jpg'); /* Asegúrate de tener una imagen de fondo en la carpeta images */
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.form-control {
+    border-radius: 5px;
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.alert-danger {
+    text-align: center;
+}
+
+/* Estilos personalizados para el recibo */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    white-space: pre-wrap; /* Asegura que el texto en el <pre> mantenga su formato */
+    overflow: auto;
+}
+
+/* Estilos adicionales para el modal */
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
